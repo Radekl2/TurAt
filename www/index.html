@@ -16,9 +16,10 @@
 			<h1>Turist attractions in Poland</h1>
 		  </div>
 		  <div data-role="main" class="ui-content">
-			<a href="#pagMas">Mas</a>
-			<a href="#popupPom" data-rel="popup" data-position-to="window" data-transition="fade">Pom</a>
-			<a href="#popupTat" data-rel="popup" data-position-to="window" data-transition="fade">Tat</a>
+		  <a href='#' onclick='openPopupWithSize("img/pom.png"); return false;'>Open image</a>
+			<a href="#pic" data-rel="popup" data-position-to="window" data-transition="fade" onClick='setMas()'>Mas</a>
+			<a href="#pic" data-rel="popup" data-position-to="window" data-transition="fade" onClick='setPom()'>Pom</a>
+			<a href="#pic" data-rel="popup" data-position-to="window" data-transition="fade" onClick='setTat)'>Tat</a>
 		  </div>
 		  <div data-role="footer" data-position="fixed">
 			<h1>(c) Radoslaw Smyksy</h1>
@@ -26,13 +27,8 @@
 		</div> 
 		
 		<!-- Mobile device details page -->
-		<div data-role="page" id="pagMas">
-			<div data-role="header">adads</div>
-			<div data-role="main" class="ui-content">
-		<div data-role="popup" id="popupMas" data-overlay-theme="b" data-theme="b" data-corners="false">
-			<img class="popphoto" src="img/mas.png">
-		</div>	</div>
-		<div data-role="footer" data-position="fixed">adad</div>
+		<div data-role="popup" id="pic" data-overlay-theme="b" data-theme="b" data-corners="false">
+			<img class="popphoto" src="">
 		</div>
 		<img class="popphoto" src="img/pom.png">
 		<img class="popphoto" src="img/tat.png">
