@@ -16,7 +16,7 @@
 			<h1>Turist attractions in Poland</h1>
 		  </div>
 		  <div data-role="main" class="ui-content">
-			<a href="#popupMas" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/mas.png"></a>
+			<a href="#popupMas" data-rel="popup" data-position-to="window" data-transition="fade">Mas</a>
 			<a href="#popupPom" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/pom.png"></a>
 			<a href="#popupTat" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/tat.png"></a>
 		  </div>
@@ -26,9 +26,11 @@
 		</div> 
 		
 		<!-- Mobile device details page -->
-		<div data-role="popup" id="popupMas" data-overlay-theme="b" data-theme="b" data-corners="false">
+		<div data-role="page" id="popupMas" data-dialog="true">
+		<div role="main" class="ui-content">
 			<img class="popphoto" src="img/mas.png">
-		</div>		
+		</div></div>	
+		
 		
 	</body>
 </html>
