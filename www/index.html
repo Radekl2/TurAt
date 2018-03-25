@@ -17,8 +17,8 @@
 		  </div>
 		  <div data-role="main" class="ui-content">
 			<a href="#popupMas" data-rel="popup" data-position-to="window" data-transition="fade">Mas</a>
-			<a href="#popupPom" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/pom.png"></a>
-			<a href="#popupTat" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/tat.png"></a>
+			<a href="#popupPom" data-rel="popup" data-position-to="window" data-transition="fade">Pom</a>
+			<a href="#popupTat" data-rel="popup" data-position-to="window" data-transition="fade">Tat</a>
 		  </div>
 		  <div data-role="footer" data-position="fixed">
 			<h1>(c) Radoslaw Smyksy</h1>
@@ -26,16 +26,10 @@
 		</div> 
 		
 		<!-- Mobile device details page -->
-		<div data-role="page" id="popupMas" data-dialog="true">
-		<div data-role="header" data-theme="a">
-				<h1>It's me</h1>
-			</div>
-			<div role="main" class="ui-content">
-				<p id="deviceDetails">Place for device details ...</p>
-				<img class="popphoto" src="img/mas.png">
-			</div>
-		</div>
-		
-		
+		<div data-role="popup" id="popupMas" data-overlay-theme="b" data-theme="b" data-corners="false">
+			<img class="popphoto" src="img/mas.png">
+		</div>	
+		<img class="popphoto" src="img/pom.png">
+		<img class="popphoto" src="img/tat.png">
 	</body>
 </html>
