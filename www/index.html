@@ -16,19 +16,26 @@
 			<h1>Turist attractions in Poland</h1>
 		  </div>
 		  <div data-role="main" class="ui-content">
-			<a href="#pic" data-rel="popup" data-position-to="window" data-transition="fade" onClick='setMas()'>Mas</a>
-			<a href="#pic" data-rel="popup" data-position-to="window" data-transition="fade" onClick='setPom()'>Pom</a>
-			<a href="#pic" data-rel="popup" data-position-to="window" data-transition="fade" onClick='setTat)'>Tat</a>
-		  </div>
+			<p></p>
+			<ul>
+				<li><a href="#popupMasuria" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Masuria</a></li>
+				<li><a href="#popupPomerania" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Pomerania</a></li>
+				<li><a href="#popupTatra" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">The Tatra Mountains</a></li>
+			</ul>
+
+			<div data-role="popup" id="popupMasuria" data-overlay-theme="b" data-theme="b" data-corners="false"><a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right"></a><img class="popphoto" src="img/mas.png" style="max-height:512px;" alt="Masuria, Poland">
+			</div>	
+			<div data-role="popup" id="popupPomerania" data-overlay-theme="b" data-theme="b" data-corners="false"><a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right"></a><img class="popphoto" src="img/pom.png" style="max-height:512px;" alt="Pomerania, Poland">
+			</div>
+			<div data-role="popup" id="popupTatra" data-overlay-theme="b" data-theme="b" data-corners="false"><a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right"></a><img class="popphoto" src="img/tat.png" style="max-height: 500px;" alt="The Tatra Mountains, Poland">
+			</div>
+			
+</div>
 		  <div data-role="footer" data-position="fixed">
 			<h1>(c) Radoslaw Smyksy</h1>
 		  </div> 
 		</div> 
 		
-		<!-- Mobile device details page -->
-		<div data-role="popup" id="pic" data-overlay-theme="b" data-theme="b" data-corners="false">
-			<img class="popphoto" src="">
-		</div>
 		
 	</body>
 </html>
